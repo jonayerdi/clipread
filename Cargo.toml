@@ -1,0 +1,11 @@
+[package]
+name = "clipread"
+version = "0.1.0"
+authors = ["Jon Ayerdi <jon_ayerdi_33@hotmail.es>"]
+edition = "2018"
+description = "Reads text from clipboard and writes it to stdout"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clipboard = "0.5.0"
